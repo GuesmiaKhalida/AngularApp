@@ -1,0 +1,11 @@
+<h2>Details d'un employe </h2>
+
+<div>
+  <form (ngSubmit)="updateEmp()">
+    <label> Id : </label> <input [(ngModel)]="emp.id" name="id"> <br><br>
+    <label> Nom : </label> <input [(ngModel)]="emp.nom" name="nom"> <br><br>
+    <label> Prenom : </label> <input [(ngModel)]="emp.prenom" name="prenom"><br><br>
+    <label> Email :</label> <input [(ngModel)]="emp.adressMail" name="email"><br><br>
+    <button type="submit" >  Modifier </button>
+  </form>
+</div>

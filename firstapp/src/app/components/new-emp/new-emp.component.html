@@ -1,0 +1,10 @@
+<h2>Ajouter un nouveau employe </h2>
+<div>
+  <form (ngSubmit)="ajouterEmp()">
+
+    <label> Nom : </label> <input [(ngModel)]="emp.nom" name="nom"> <br><br>
+    <label> Prenom : </label> <input [(ngModel)]="emp.prenom" name="prenom"><br><br>
+    <label> Email :</label> <input [(ngModel)]="emp.adressMail" name="email"><br><br>
+    <button type="submit" >  Ajouter </button>
+  </form>
+</div>
